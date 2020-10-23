@@ -1,5 +1,9 @@
 # nodeapi-example
 
-api em node com funções de listagem, criação, atualização, deleção, e paginação funcional.
+Api em node com funções de listagem, criação, atualização, deleção, e paginação funcional.
 
-teste de containerização do banco via docker.
+Containerização do banco via docker
+Com Docker instalado:
+
+docker pull mongo
+docker run --name mongodbrs -p 27017:27017 -d mongo
